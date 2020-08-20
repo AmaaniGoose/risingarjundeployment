@@ -9,15 +9,18 @@ function Footer(props) {
                     <h5>Links</h5>
                     <ul className="list-unstyled">
                       <li><Link to='/home'>Home</Link></li>
+                      <li><Link to='/login'>Login/Register</Link></li>
                     </ul>
                 </div>
                 <div className="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
-  		              Address placeholder<br />
-		              <i className="fa fa-phone fa-lg"></i>: phonenumber1<br />
-		              <i className="fa fa-fax fa-lg"></i>: phonenumber2<br />
-		              <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">
+                      Kataria Market, Adjacent ILD/Corona/Taksila, Sector 37C
+                      GURGAON, Haryana 122001
+                      India<br />
+		              <i className="fa fa-phone fa-lg"></i>: 093194 12223<br />
+		              <i className="fa fa-fax fa-lg"></i>: 078383 62175<br />
+		              <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:therisingarjun@gmail.comt">
                          email</a>
                     </address>
                 </div>
