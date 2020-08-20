@@ -43,38 +43,44 @@ class Home extends Component {
                 </div>
               </div>
 
-              <div class="container-fluid py-2">
-                  <h2 class="font-weight-light text-center">Offers and Services</h2>
+              <div class="container">
+                  <h2 class="font-weight-light text-center m-3">Offers and Services</h2>
                     <FadeTransform
                           in
                           transformProps={{
                               exitTransform: 'scale(0.5) translateY(-50%)'
                           }}>
-                  <div class="d-flex flex-row flex-nowrap justify-content-center" >
-                        <div class="card m-3">
-                          <h5 class="card-title m-3">IIT-JEE Coaching</h5>
+                  <div class="row" >
+                    <div class="col-12 col-md-6">
+                        <div class="card m-3 h-100">
+                          <h5 class="card-title m-3 text-center">IIT-JEE Coaching</h5>
                             <div class="card-body">
                               IIT-JEE coaching from VI to XII students and for drop outs. Guest lectures are regularly arranged from corporate
                               professionals who are Alumni of IIT, NITs, KOTA & JNU/DU. We Focus on individual progress to make weak students bright
                               & bright ones as toppers.We follow continuous performance based scholarships.
                             </div>
                         </div>
-
-                        <div class="card m-3">
-                          <h5 class="card-title m-3">NEET Coaching</h5>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <div class="card m-3 h-100">
+                          <h5 class="card-title m-3 text-center">NEET Coaching</h5>
                             <div class="card-body">
                               NEET coaching from VII to XII students and for drop outs.
                             </div>
                         </div>
                       </div>
-                      <div class="d-flex flex-row flex-nowrap justify-content-center" >
-                        <div class="card m-3">
-                          <h5 class="card-title m-3">CLAT Coaching</h5>
+                      </div>
+                      <div class="row row-content" >
+                        <div class="col-12 col-md-6">
+                        <div class="card m-3 h-100">
+                          <h5 class="card-title m-3 text-center">CLAT Coaching</h5>
                             <div class="card-body">
                               CLAT Coaching for XI to XII students and drop outs.
                             </div>
                         </div>
-                        <div class="card m-3">
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <div class="card m-3 h-100">
                           <h5 class="card-title text-center m-3">All Boards Coaching</h5>
                             <div class="card-body ">
                               All boards regular coaching from IV to XII students. Guest lectures are regularly arranged from
@@ -83,6 +89,7 @@ class Home extends Component {
                             </div>
                         </div>
                       </div>
+                    </div>
                   </FadeTransform>
               </div>
 
